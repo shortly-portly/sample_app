@@ -31,6 +31,7 @@ GEM
     arel (3.0.2)
     awesome_print (1.0.2)
     bond (0.4.3)
+    bootstrap-sass (2.1.0.0)
     boson (1.2.4)
     builder (3.0.4)
     capybara (1.1.2)
@@ -75,6 +76,8 @@ GEM
       guard (>= 1.1)
       spork (>= 0.8.4)
       sys-proctable
+    haml (4.0.0)
+      tilt
     hike (1.2.1)
     hirb (0.7.1)
     i18n (0.6.1)
@@ -211,11 +214,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (= 2.1)
   capybara (= 1.1.2)
   childprocess (= 0.3.6)
   coffee-rails (= 3.2.2)
   guard-rspec (= 1.2.1)
   guard-spork (= 1.2.0)
+  haml
   irbtools
   irbtools-more
   jquery-rails (= 2.0.2)
