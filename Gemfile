@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.12'
 gem 'bootstrap-sass', '2.1'
 gem 'haml'
+gem 'bcrypt-ruby', '3.0.1'
 gem 'irbtools', :require => false
 gem 'irbtools-more', :require => false
 
@@ -16,6 +17,7 @@ group :development, :test do
 	gem 'guard-spork', '1.2.0'
 	gem 'spork', '0.9.2'
 	gem 'childprocess', '0.3.6'
+	gem 'annotate', '2.5.0'
 end
 
 # Gems used only for assets and not required
